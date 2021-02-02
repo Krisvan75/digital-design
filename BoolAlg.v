@@ -7,4 +7,4 @@ module BoolAlg(A, B, C, D, E, F)
   
   assign E = A || (B && C) || ((!B) && D);
   assign F = ((!B) && C) || (B && C && (!D));
-endmodule
+  endmodule
